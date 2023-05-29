@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-delete",
+  "name": "@ecanavesio/mongoose-delete",
   "version": "1.0.0",
   "description": "Mongoose soft delete plugin",
   "author": "Sanel Deljkic <dsanel@gmail.com> (http://dsanel.github.io/)",
