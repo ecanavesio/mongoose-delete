@@ -1,8 +1,8 @@
 {
-  "name": "mongoose-delete",
-  "version": "0.5.4",
+  "name": "@ecanavesio/mongoose-delete",
+  "version": "1.0.1",
   "description": "Mongoose soft delete plugin",
-  "author": "Sanel Deljkic <dsanel@gmail.com> (http://dsanel.github.io/)",
+  "author": "Emanuel Canavesio <canavesio.em@protonmail.com> (https://github.com/ecanavesio)",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:dsanel/mongoose-delete.git"
+    "url": "git@github.com:ecanavesio/mongoose-delete.git"
   },
   "keywords": [
     "mongoose",
@@ -22,16 +22,17 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dsanel/mongoose-delete/issues"
+    "url": "https://github.com/ecanavesio/mongoose-delete/issues"
   },
-  "homepage": "https://github.com/dsanel/mongoose-delete",
+  "homepage": "https://github.com/ecanavesio/mongoose-delete",
   "peerDependencies": {
-    "mongoose": "4.x || 5.x || 6.x"
+    "mongoose": "^7.2.1"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "8.x",
-    "mongoose": "^6",
+    "chai": "^4.3.7",
+    "eslint": "^8.41.0",
+    "mocha": "^10.2.0",
+    "mongoose": "^7.2.1",
     "nyc": "^15.0.0"
   }
 }
